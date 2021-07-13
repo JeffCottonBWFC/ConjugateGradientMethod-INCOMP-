@@ -1,0 +1,1 @@
+n = 10;i = 0:1:n-1;y = (i+1)/(n+1);plot (y, X10by10XVals);xlim([0 1]);ylim([0.04 0.13]);set(gca, 'FontName', 'Arial');xlabel('^{i+1}/_{n+1}');ylabel('x_i');title('Plot of CGM for 10x10 Matrix (with x-axis rescaled to [0,1])');

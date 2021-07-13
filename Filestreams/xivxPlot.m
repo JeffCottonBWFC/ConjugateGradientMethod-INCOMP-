@@ -1,0 +1,1 @@
+n = 100;i = 0:1:n-1;y = (i+1)/(n+1);plot (y, X100by100XVals);xlim([0 1]);ylim([0.01 0.13]);set(gca, 'FontName', 'Arial');xlabel('^{i+1}/_{n+1}');ylabel('x_i');title('Plot of CGM for 100x100 Matrix (with x-axis rescaled to [0,1])');
